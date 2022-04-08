@@ -5,14 +5,24 @@
   <title>Форма для входа</title>
   <link rel="stylesheet" href="style.css"> 
  </head>
- 
+
  <body>
-  <form action="/example/handler.php">
+     <div class="body"> 
+  <div class="form"> 
+      <form action="/example/handler.php">
    <h2>Добро пожаловать!</h2>
-   <p><input name="login" placeholder="Логин" class="form-control"></p>
-   <p><input type="password" name="pass" placeholder="Пароль" class="form-control"></p>
-   <p class="remember"><input type="checkbox" checked name="remember"> Запомнить меня</p>
+   <div class="form-control">
+   <p><input name="login" placeholder="Логин"></p>
+   <p><input type="password" name="pass" placeholder="Пароль"></p>
+</div>
+<div class="remember"> 
+   <p><input type="checkbox" checked name="remember"> Запомнить меня</p>
+</div>
+<div class="button"> 
    <p><button>Войти</button></p>
+</div>
   </form>
+</div>
+</div>
  </body>
 </html>
